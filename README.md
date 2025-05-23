@@ -32,20 +32,25 @@ Este projeto tem como objetivo padronizar e validar cenários escritos no format
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/validador-gherkin.git
-cd validador-gherkin```
+cd validador-gherkin
+```
+
 Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 # ou individualmente:
 pip install gherkin-official python-docx pandas openpyxl
+```
+
 ⚙️ Como Usar
 Execute o script principal passando os argumentos necessários:
 
 ```bash
 python validador.py --caminho "./features" --nome "meu_projeto"
---caminho: Caminho da pasta contendo os arquivos .feature
+```
 
+--caminho: Caminho da pasta contendo os arquivos .feature
 --nome: Nome do projeto (usado nos relatórios gerados)
 
 📄 Relatórios Gerados
