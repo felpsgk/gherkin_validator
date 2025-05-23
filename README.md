@@ -32,7 +32,7 @@ Este projeto tem como objetivo padronizar e validar cenários escritos no format
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/validador-gherkin.git
-cd validador-gherkin
+cd validador-gherkin```
 Instale as dependências:
 
 ```bash
